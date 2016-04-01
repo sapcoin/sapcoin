@@ -1,14 +1,23 @@
 #Build Instructions for SAPCoin in Visual Studio 2013
+----------
+OBS.: I have downloaded and edited the files using VS2013 Professional;
+the solution and project files are renamed into SAPCoinS and SAPCoin 
+from bitcoind and bitcoin-qt respectively. Thanks to Claire Du Soleil! ~ Viraj
 
 ----------
-#Message from Claire Du Soleil
+#Original ReadMe file from Claire
+----------
+
+#Build Instructions for Bitcoin in Visual Studio 2013
+
+----------
 
 I have created a VS2013 solution and project files to build BitcoinD and Bitcoin-Qt.  To try this out, the first thing you need to do is install VS2013, along with the latest updates, and then get all the dependecies downloaded, arranged in the expected file structure, and then built.  If it all works, you will have 32 and 64 bit versions in debug and release mode of both the daemon and the Qt exe.
 
 Good Luck!
 
 
-## Building All of the SAPCoin Dependencies in Visual Studio 2013 ##
+## Building All of the Bitcoin Dependencies in Visual Studio 2013 ##
 
 To build all of the required dependencies, you first must download them.  Here they are:
 
@@ -54,7 +63,8 @@ Also, copy the build-helpers directory to C:\MyProjects\BitcoinDeps.  Here is wh
             qtdir32\
             qtdir64\
         bitcoin-master-0.8.6\
-        sapcoin-master-0.1\
+        Feathercoin-master-0.8.6\
+        litecoin-master-0.8.6.2\
 
 
 ####Am I Finally Ready To Start Building Something??####
@@ -87,8 +97,3 @@ Hopefully, if you have made it this far, you will know what to do here.  Open up
 I've tried to make this guide as complete as possible and I hope it helps you. If you find any mistakes or omissions, please let me know by posting in my thread at [bitcointalk](https://bitcointalk.org/index.php?topic=349094).
 
 Thank you,<br/>Claire
-
-----------
-OBS.:
-I have downloaded and edited the files using VS2013 Professional; the solution and project files are renamed into SAPCoinS and SAPCoin, the bitcoind and bitcoin-qt respectively. Thanks to Claire Du Soleil! ~ Viraj
-
