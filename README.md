@@ -19,8 +19,8 @@ For more information, as well as an immediately useable, binary version of
 the SAPCoin client software, see http://www.sapcoin.net.
 
 
-NB:
----
+NB: Some modifications
+----------------------
 1. Development environment: Microsoft Visual Studio 2013 Professional
 2. At present (as of March 2016) it is only available for Windows 7, 8.1, 10
 3. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1
