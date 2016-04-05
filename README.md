@@ -29,6 +29,11 @@ NB:
 6. Script Address starts with: 3
 7. The prefix for the address is: 7
 
+SAPCoin Developers
+------------------
+1. Viraj Ananda
+2. Shiv Vajra
+3. R. B. Santapaz
 
 ============================
 Bitcoin original ReadMe file
