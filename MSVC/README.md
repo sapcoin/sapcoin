@@ -1,8 +1,15 @@
-#Build Instructions for SAPCoin in Visual Studio 2013
+#SAPCoin in Visual Studio 2013
 ----------
 OBS.: I have downloaded and edited the files using VS2013 Professional;
 the solution and project files are renamed into SAPCoinS and SAPCoin 
 from bitcoind and bitcoin-qt respectively. Thanks to Claire Du Soleil! ~ Viraj
+
+#SAPCoin Developers (info@sapcoin.net)
+--------------------------------------
+Viraj Ananda
+Shiv Vajra
+Romy Santapaz
+
 
 ----------
 #Original ReadMe file from Claire
