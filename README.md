@@ -18,16 +18,19 @@ this currency.
 For more information, as well as an immediately useable, binary version of
 the SAPCoin client software, see http://www.sapcoin.net.
 
-
-NB: Some modifications
+Development environment: Microsoft Visual Studio 2013 Professional
 ----------------------
-1. Development environment: Microsoft Visual Studio 2013 Professional
-2. At present (as of March 2016) it is only available for Windows 7, 8.1, 10
-3. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1
-4. Three minutes is the Target Spacing time, confirmation
-5. Target Time Span is one week: 7 * 24 * 60 * 60
-6. Script Address starts with: 3
-7. The prefix for the address is: 7
+
+NB: Some Observations
+----------------------
+As of March 2016 it is only available for Windows 7, 8.1, 10
+1. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1
+2. Three minutes is the Target Spacing time, confirmation
+3. Target Time Span is one week: 7 * 24 * 60 * 60
+4. Script Address starts with: 3
+5. The prefix for the address is: 7
+6. Command line: from -daemon to -service
+7. bnProofOfWorkLimit: from >> 32 to >> 20
 
 
 ============================
