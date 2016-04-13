@@ -66,7 +66,7 @@ enum BindFlags {
 // threads that should only be stopped after the main network-processing
 // threads have exited.
 //
-// Note that if running -daemon the parent process returns from AppInit2
+// Note that if running -service the parent process returns from AppInit2
 // before adding any threads to the threadGroup, so .join_all() returns
 // immediately and the parent exits from main().
 //
@@ -199,7 +199,7 @@ bool AppInit(int argc, char* argv[])
             exit(ret);
         }
 #if !defined(WIN32)
-        fDaemon = GetBoolArg("-daemon");
+        fDaemon = GetBoolArg("-service");
         if (fDaemon)
         {
             // Daemonize
@@ -288,7 +288,7 @@ bool static Bind(const CService &addr, unsigned int flags) {
     return true;
 }
 
-// Core-specific options shared between UI and daemon
+// Core-specific options shared between UI and service
 std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
@@ -331,7 +331,7 @@ std::string HelpMessage()
         "  -server                " + _("Accept command line and JSON-RPC commands") + "\n" +
 #endif
 #if !defined(WIN32) && !defined(QT_GUI)
-        "  -daemon                " + _("Run in the background as a daemon and accept commands") + "\n" +
+        "  -service               " + _("Run in the background as a service and accept commands") + "\n" +
 #endif
         "  -testnet               " + _("Use the test network") + "\n" +
         "  -debug                 " + _("Output extra debugging information. Implies all other -debug* options") + "\n" +
@@ -908,7 +908,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         return InitError(_("You need to rebuild the databases using -reindex to change -txindex"));
 
     // as LoadBlockIndex can take several minutes, it's possible the user
-    // requested to kill sapcoin-qt during the last operation. If so, exit.
+    // requested to shutdown sapcoin during the last operation. If so, exit.
     // As the program has not fully started yet, Shutdown() is possibly overkill.
     if (fRequestShutdown)
     {

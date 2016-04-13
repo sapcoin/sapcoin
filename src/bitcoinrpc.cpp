@@ -739,8 +739,8 @@ void StartRPCThreads()
         string strWhatAmI = "To use bitcoind";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
-        else if (mapArgs.count("-daemon"))
-            strWhatAmI = strprintf(_("To use the %s option"), "\"-daemon\"");
+        else if (mapArgs.count("-service"))
+            strWhatAmI = strprintf(_("To use the %s option"), "\"-service\"");
         uiInterface.ThreadSafeMessageBox(strprintf(
             _("%s, you must set a rpcpassword in the configuration file:\n"
               "%s\n"

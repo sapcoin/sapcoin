@@ -8,7 +8,7 @@
 #include "version.h"
 
 // Name of client reported in the 'version' message. Report the same name
-// for both sapcoins and sapcoin-qt, to make it harder for attackers to
+// for both sapcoins and sapcoin, to make it harder for attackers to
 // target servers or GUI users specifically.
 const std::string CLIENT_NAME("shivvajra"); //CLIENT_NAME("Satoshi") // orig
 
