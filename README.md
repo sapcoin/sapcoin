@@ -23,14 +23,14 @@ Development environment: Microsoft Visual Studio 2013 Professional
 
 NB: Some Observations
 ----------------------
-As of March 2016 it is only available for Windows 7, 8.1, 10
-1. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1
-2. Three minutes is the Target Spacing time, confirmation
-3. Target Time Span is one week: 7 * 24 * 60 * 60
-4. Script Address starts with: 3
-5. The prefix for the address is: 7
-6. Command line: from -daemon to -service
-7. bnProofOfWorkLimit: from >> 32 to >> 20
+As of March 2016 it is only available for Windows 7, 8.1, 10<br/>
+1. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1<br/>
+2. Three minutes is the Target Spacing time, confirmation<br/>
+3. Target Time Span is one week: 7 * 24 * 60 * 60<br/>
+4. Script Address starts with: 3<br/>
+5. The prefix for the address is: 7<br/>
+6. Command line: from -daemon to -service<br/>
+7. bnProofOfWorkLimit: from >> 32 to >> 20<br/>
 
 
 ============================
