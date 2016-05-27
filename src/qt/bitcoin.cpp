@@ -156,9 +156,9 @@ int main(int argc, char *argv[])
     QApplication::setOrganizationName("SAPCoin");
     QApplication::setOrganizationDomain("sapcoin.net");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("SAPCoin-Qt-testnet");
+        QApplication::setApplicationName("SAPCoin-testnet");
     else
-        QApplication::setApplicationName("SAPCoin-Qt");
+        QApplication::setApplicationName("SAPCoin");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -278,7 +278,7 @@ int main(int argc, char *argv[])
                 window.removeAllWallets();
                 guiref = 0;
             }
-            // Shutdown the core and its threads, but don't exit SAPCoin-Qt here
+            // Shutdown the core and its threads, but don't exit SAPCoin here
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();

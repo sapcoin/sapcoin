@@ -96,7 +96,7 @@ namespace GUIUtil
     bool GetStartOnSystemStartup();
     bool SetStartOnSystemStartup(bool fAutoStart);
 
-    /** Help message for SAPCoin-Qt, shown with --help. */
+    /** Help message for SAPCoin, shown with --help. */
     class HelpMessageBox : public QMessageBox
     {
         Q_OBJECT

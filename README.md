@@ -8,7 +8,7 @@ Copyright (c) 2016 SAPCoin Developers
 What is SAPCoin?
 ----------------
 
-SAPCoin is a clone of Bitcoin 0.8.6; and an experimental new digital currency
+SAPCoin 0.9.0 is a clone of Bitcoin 0.8.6; and an experimental new digital currency
 that enables instant payments to anyone, anywhere in the world. SAPCoin uses 
 peer-to-peer technology to operate with no central authority: managing 
 transactions and issuing money are carried out collectively by the network. 
@@ -21,8 +21,10 @@ the SAPCoin client software, see http://www.sapcoin.net.
 Development environment: Microsoft Visual Studio 2013 Professional
 ----------------------
 
-NB: Some Observations
+NB:
 ----------------------
+MAIN RPCPORT: 39979 | PORT: 39973 <br/>
+TEST RPCPORT: 39993 | PORT: 39997 <br/><br/>
 As of March 2016 it is only available for Windows 7, 8.1, 10<br/>
 1. At the moment, CPU for mining is good enough, with 'sapcoin.conf': gen=1<br/>
 2. Three minutes is the Target Spacing time, confirmation<br/>
