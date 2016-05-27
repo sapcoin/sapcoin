@@ -1,9 +1,9 @@
 #SAPCoin in Visual Studio 2013
 ----------
-OBS.: Thanks to Claire Du Soleil and Ron (old c coder)! ~ Viraj<br/>
+OBS.: Thanks to Claire Du Soleil and Ron (old c coder)! ~ +viraj.*<br/>
 Reference: https://bitcointalk.org/index.php?topic=349094.0
 
-Executable files are renamed into SAPCoins_ and SAPCoin from bitcoind and bitcoin-qt respectively.
+Executable files are renamed into SAPCoinS and SAPCoin from bitcoind and bitcoin-qt respectively.
 
 #SAPCoin Developers
 -------------------

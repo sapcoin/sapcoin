@@ -18,7 +18,7 @@ this currency.
 For more information, as well as an immediately useable, binary version of
 the SAPCoin client software, see http://www.sapcoin.net.
 
-Development environment: Microsoft Visual Studio 2013 Professional
+Platform: Microsoft Visual Studio 2013 Professional
 ----------------------
 
 NB:
